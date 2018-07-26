@@ -18,7 +18,7 @@ public class Axe {
         return this.durabilityPoints;
     }
 
-    public void attack(Dummy target) {
+    public void attack(rpg_lab.Dummy target) {
         if (this.durabilityPoints <= 0) {
             throw new IllegalStateException("Axe is broken.");
         }

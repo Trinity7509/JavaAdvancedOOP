@@ -9,11 +9,11 @@ public class Main {
         BufferedReader reader=new BufferedReader(new InputStreamReader(System.in));
         String cards=reader.readLine();
         String ranks=reader.readLine();
-try {
-    Cards cards1 = Cards.valueOf(cards.toUpperCase());
-    RankCard rankCard = RankCard.valueOf(ranks.toUpperCase());
-    int maxPower = cards1.getPower() + rankCard.getStrong();
 
+    Cards cards1 = Cards.valueOf(cards);
+    RankCard rankCard = RankCard.valueOf(ranks);
+    int maxPower = cards1.getPower() + rankCard.getStrong();
+        try {
     System.out.printf("Card name: %s of %s; Card power: %d"
             , cards1.name(), rankCard.name(), maxPower);
 

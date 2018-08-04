@@ -9,10 +9,9 @@ public class Main {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         String rank = reader.readLine();
         String suit = reader.readLine();
-        RankCard cardRank = RankCard.valueOf(rank);
-        Cards cardSuit = Cards.valueOf(suit);
-        int power = cardRank.getPower() + cardSuit.getPower();
-        System.out.printf("Card name: %s of %s; Card power: %d%n", cardRank.name(), cardSuit.name(), power);
+
+        Card card=new Card(rank,suit);
+        System.out.println(card);
 
 
 

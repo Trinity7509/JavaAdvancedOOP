@@ -6,21 +6,15 @@ import java.io.InputStreamReader;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        BufferedReader reader=new BufferedReader(new InputStreamReader(System.in));
-        String cards=reader.readLine();
-        String ranks=reader.readLine();
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        String rank = reader.readLine();
+        String suit = reader.readLine();
+        RankCard cardRank = RankCard.valueOf(rank);
+        Cards cardSuit = Cards.valueOf(suit);
+        int power = cardRank.getPower() + cardSuit.getPower();
+        System.out.printf("Card name: %s of %s; Card power: %d%n", cardRank.name(), cardSuit.name(), power);
 
-    Cards cards1 = Cards.valueOf(cards);
-    RankCard rankCard = RankCard.valueOf(ranks);
-    int maxPower = cards1.getPower() + rankCard.getStrong();
-        try {
-    System.out.printf("Card name: %s of %s; Card power: %d"
-            , cards1.name(), rankCard.name(), maxPower);
 
-}
-catch(IllegalArgumentException ignored){
-    ;
-}
 
 
     }

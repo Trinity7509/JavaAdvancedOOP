@@ -6,13 +6,13 @@ public enum  RankCard {
     FIVE (5), SIX  (6), SEVEN (7), EIGHT (8),
     NINE (9), TEN (10), JACK (11), QUEEN (12), KING (13);
 
-    private int strong;
+    private int power;
 
-    RankCard(int strong) {
-        this.strong=strong;
+    RankCard(int power) {
+        this.power=power;
     }
 
-    public int getStrong() {
-        return this.strong;
+    public int getPower() {
+        return this.power;
     }
 }

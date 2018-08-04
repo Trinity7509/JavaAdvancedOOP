@@ -1,15 +1,13 @@
-package Irretors.Irretors.CardsWithPower;
+package Irretors.Irretors.CustomEnum;
 
 
-
-
-public enum Cards {
+public enum CardSuits {
 
     CLUBS(0), DIAMONDS(13),HEARTS(26),SPADES(39);
 
     private int power;
 
-    Cards(int power) {
+    CardSuits(int power) {
         this.power=power;
     }
 

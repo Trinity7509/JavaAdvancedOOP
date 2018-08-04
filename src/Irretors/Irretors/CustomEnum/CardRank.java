@@ -1,8 +1,7 @@
-package Irretors.Irretors.CardsWithPower;
+package Irretors.Irretors.CustomEnum;
 
-
-
-public enum  RankCard {
+@EnumAnnotation(type = "Enumeration", category = "Rank", description = "Provides rank constants for a Card class.")
+public enum  CardRank {
 
     ACE(14), TWO  (2), THREE (3), FOUR (4),
     FIVE (5), SIX  (6), SEVEN (7), EIGHT (8),
@@ -10,7 +9,7 @@ public enum  RankCard {
 
     private int power;
 
-    RankCard(int power) {
+    CardRank(int power) {
         this.power=power;
     }
 

@@ -10,8 +10,17 @@ public class Main {
         String rank = reader.readLine();
         String suit = reader.readLine();
 
-        Card card=new Card(rank,suit);
-        System.out.println(card);
+        Card cardOne=new Card(rank,suit);
+
+        String rank2 = reader.readLine();
+        String suit2 = reader.readLine();
+
+        Card cardTwo=new Card(rank2,suit2);
+
+        Card greaterCard=cardOne.compareTo(cardTwo)>0 ? cardOne:cardTwo;
+
+
+        System.out.println(greaterCard);
 
 
 

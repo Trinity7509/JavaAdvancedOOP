@@ -1,6 +1,6 @@
 package Irretors.Irretors.CardsWithPower;
 
-public class Card {
+public class Card implements Comparable<Card>{
     private RankCard rankCard;
     private Cards cards;
 
@@ -13,6 +13,15 @@ public class Card {
     {
         return this.rankCard.getPower()+this.cards.getPower();
     }
+
+
+
+    @Override
+    public int compareTo(Card o) {
+
+            return Integer.compare(this.getPower(),o.getPower());
+        }
+
 
     @Override
     public String toString() {

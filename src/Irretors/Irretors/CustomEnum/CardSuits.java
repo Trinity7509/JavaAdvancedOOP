@@ -1,6 +1,6 @@
 package Irretors.Irretors.CustomEnum;
 
-
+@EnumAnnotation(type = "Enumeration", category = "Suits",description = "Provides suit constants for a Card class.")
 public enum CardSuits {
 
     CLUBS(0), DIAMONDS(13),HEARTS(26),SPADES(39);

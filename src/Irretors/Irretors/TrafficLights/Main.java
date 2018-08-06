@@ -1,6 +1,6 @@
 package Irretors.Irretors.TrafficLights;
 
-import com.sun.org.apache.xml.internal.serialize.LineSeparator;
+
 
 import java.io.BufferedReader;
 import java.io.IOException;

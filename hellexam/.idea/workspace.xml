@@ -1,33 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13ac1cc2-17ed-4311-a931-2bef5ca4aea0" name="Default" comment="add changes">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hellexam.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hell/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hell/enteties/heroes/Assassin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hell/enteties/heroes/Barbarian.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hell/enteties/heroes/BaseHero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hell/enteties/heroes/Wizard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hell/enteties/items/BaseItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hell/enteties/items/CommonItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hell/enteties/items/RecipeItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hell/entities/miscellaneous/HeroInventory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hell/entities/miscellaneous/ItemCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hell/interfaces/Hero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hell/interfaces/InputReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hell/interfaces/Inventory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hell/interfaces/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hell/interfaces/OutputWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hell/interfaces/Recipe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hell/entities/miscellaneous/HeroInventoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="13ac1cc2-17ed-4311-a931-2bef5ca4aea0" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../exam1208/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exam1208/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exam1208/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exam1208/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exam1208/src/main/java/callofduty/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exam1208/src/main/java/callofduty/core/MissionControlImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exam1208/src/main/java/callofduty/enteties/agents/BaseAgent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exam1208/src/main/java/callofduty/enteties/agents/MasterAgent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exam1208/src/main/java/callofduty/enteties/agents/NoviceAgent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exam1208/src/main/java/callofduty/enteties/missions/BaseMission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exam1208/src/main/java/callofduty/enteties/missions/EscortMission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exam1208/src/main/java/callofduty/enteties/missions/HuntMission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exam1208/src/main/java/callofduty/enteties/missions/SurveillanceMission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exam1208/src/main/java/callofduty/interfaces/Agent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exam1208/src/main/java/callofduty/interfaces/BountyAgent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exam1208/src/main/java/callofduty/interfaces/Bountyable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exam1208/src/main/java/callofduty/interfaces/Identifiable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exam1208/src/main/java/callofduty/interfaces/InputReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exam1208/src/main/java/callofduty/interfaces/Mission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exam1208/src/main/java/callofduty/interfaces/MissionControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exam1208/src/main/java/callofduty/interfaces/MissionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exam1208/src/main/java/callofduty/interfaces/Nameable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exam1208/src/main/java/callofduty/interfaces/OutputWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exam1208/src/main/java/callofduty/interfaces/Rateable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exam_prep_002/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exam_prep_002/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exam_prep_002/src/main/java/panzer/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exam_prep_002/src/main/java/panzer/contracts/Assembler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exam_prep_002/src/main/java/panzer/contracts/AttackModifyingPart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exam_prep_002/src/main/java/panzer/contracts/BattleOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exam_prep_002/src/main/java/panzer/contracts/DefenseModifyingPart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exam_prep_002/src/main/java/panzer/contracts/HitPointsModifyingPart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exam_prep_002/src/main/java/panzer/contracts/InputReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exam_prep_002/src/main/java/panzer/contracts/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exam_prep_002/src/main/java/panzer/contracts/Modelable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exam_prep_002/src/main/java/panzer/contracts/OutputWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exam_prep_002/src/main/java/panzer/contracts/Part.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exam_prep_002/src/main/java/panzer/contracts/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exam_prep_002/src/main/java/panzer/core/PanzerBattleOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exam_prep_002/src/main/java/panzer/enteties/VehicleBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exam_prep_002/src/main/java/panzer/models/miscellaneous/VehicleAssembler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,17 +59,17 @@
       <file leaf-file-name="HeroInventory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/hell/entities/miscellaneous/HeroInventory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1122">
+            <state relative-caret-position="185">
               <caret line="71" column="13" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HeroInventoryTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HeroInventoryTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/hell/entities/miscellaneous/HeroInventoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-85">
-              <caret line="65" column="41" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="41" />
+            <state relative-caret-position="1870">
+              <caret line="110" column="5" selection-start-line="110" selection-start-column="5" selection-end-line="110" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,41 +77,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseHero.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BaseHero.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/hell/enteties/heroes/BaseHero.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1071">
-              <caret line="83" column="41" selection-start-line="83" selection-start-column="41" selection-end-line="83" selection-end-column="41" />
+            <state relative-caret-position="102">
+              <caret line="72" column="55" selection-start-line="72" selection-start-column="55" selection-end-line="72" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1463#1493#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Barbarian.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/hell/enteties/heroes/Barbarian.java">
+      <file leaf-file-name="Hero.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/hell/interfaces/Hero.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Item.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/hell/interfaces/Item.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommonItem.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/hell/enteties/items/CommonItem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="425">
+              <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -105,6 +104,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
               <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommonItem.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/hell/enteties/items/CommonItem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -196,9 +204,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="19" />
-    <option name="y" value="50" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-53" />
+    <option name="y" value="-16" />
     <option name="width" value="1386" />
     <option name="height" value="730" />
   </component>
@@ -209,6 +217,7 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -324,7 +333,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -472,8 +480,19 @@
       <workItem from="1533720553812" duration="8853000" />
       <workItem from="1533742123613" duration="10380000" />
       <workItem from="1533793924728" duration="16621000" />
-      <workItem from="1533827982829" duration="613000" />
+      <workItem from="1533827982829" duration="2256000" />
+      <workItem from="1533886388666" duration="4795000" />
+      <workItem from="1533991784244" duration="1233000" />
+      <workItem from="1534053479491" duration="2509000" />
     </task>
+    <task id="LOCAL-00001" summary="add changes">
+      <created>1533831899816</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1533831899816</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -485,10 +504,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36467000" />
+    <option name="totallyTimeSpent" value="46647000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="19" y="50" width="1386" height="730" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -498,12 +518,12 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5004082" side_tool="true" weight="0.11652174" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.010016695" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.09217391" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31297135" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3290469" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -513,15 +533,14 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49959183" weight="0.15304348" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4991987" visible="true" weight="0.0" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49959183" weight="0.15304348" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Run" order="3" />
@@ -531,8 +550,8 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -541,13 +560,14 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5004082" side_tool="true" visible="true" weight="0.11652174" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Capture Tool" order="5" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Maven Projects" order="8" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -561,6 +581,58 @@
     <option name="LAST_COMMIT_MESSAGE" value="add changes" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/hell/enteties/items/CommonItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hell/interfaces/Recipe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hell/enteties/items/BaseItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <folding>
+            <element signature="e#767#768#0" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hell/interfaces/Inventory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hell/enteties/items/RecipeItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/hell/entities/miscellaneous/HeroInventoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1445">
+          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/hell/entities/miscellaneous/HeroInventory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1122">
@@ -574,6 +646,7 @@
           <caret line="83" column="41" selection-start-line="83" selection-start-column="41" selection-end-line="83" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1463#1493#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -657,6 +730,7 @@
           <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1463#1493#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -755,6 +829,7 @@
           <caret line="68" column="54" lean-forward="true" selection-start-line="68" selection-start-column="54" selection-end-line="68" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1463#1493#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -789,32 +864,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="11" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/hell/enteties/heroes/Wizard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hell/interfaces/Hero.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/hell/interfaces/InventoryTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/hell/interfaces/Recipe.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/hell/enteties/heroes/Barbarian.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hell/interfaces/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
@@ -836,6 +907,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hell/interfaces/Recipe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/hell/enteties/items/RecipeItem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -846,20 +924,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hell/enteties/heroes/Barbarian.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hell/interfaces/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/hell/interfaces/Inventory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -867,10 +931,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hell/enteties/heroes/BaseHero.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="83" column="41" selection-start-line="83" selection-start-column="41" selection-end-line="83" selection-end-column="41" />
+        <state relative-caret-position="527">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/hell/entities/miscellaneous/HeroInventoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1870">
+          <caret line="110" column="5" selection-start-line="110" selection-start-column="5" selection-end-line="110" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -879,17 +950,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/hell/entities/miscellaneous/HeroInventory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
+        <state relative-caret-position="185">
           <caret line="71" column="13" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/hell/entities/miscellaneous/HeroInventoryTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/hell/interfaces/Hero.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="65" column="41" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="41" />
+        <state relative-caret-position="425">
+          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hell/enteties/heroes/BaseHero.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="72" column="55" selection-start-line="72" selection-start-column="55" selection-end-line="72" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1463#1493#0" expanded="true" />
           </folding>
         </state>
       </provider>
